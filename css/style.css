@@ -1,0 +1,30 @@
+/*----------------------------------------------
+            configuracion general
+            todos la ponen kaskdlñkad
+--------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------------
+           fondodillo negro como tu ano
+--------------------------------------------*/
+
+body{
+    background: black;
+    color: white;
+}
+
+/*----------------------------------------------
+            estrellas normales
+--------------------------------------------*/
+
+.estrella{
+    position: absolute;
+    z-index: -1;
+    background-image: url(../img/corazon.svg);
+}
+

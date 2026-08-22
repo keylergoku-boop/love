@@ -1,0 +1,103 @@
+/*--------------------------------------------------
+                Estilo base
+---------------------------------------------------*/
+
+.planetas{
+    position: absolute;
+}
+
+/*--------------------------------------------------
+                    Sol
+---------------------------------------------------*/
+
+.sol{
+    background-image: url(../img/sun.svg);
+    box-shadow:
+        0 0 25px #ffb300,
+        0 0 60px #ff9800,
+        0 0 120px rgba(255,180,0,.7);
+        border-radius: 50%;
+
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                Mercurio
+---------------------------------------------------*/
+
+.mercurio{
+    background-image: url(../img/mercury-svgrepo-com.svg) ;
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                    Venus
+---------------------------------------------------*/
+
+.venus{
+    background-image: url(../img/venus-svgrepo-com.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                    Tierra
+---------------------------------------------------*/
+
+.tierra{
+    background-image: url(../img/earth-svgrepo-com.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                    Marte
+---------------------------------------------------*/
+
+.marte{
+   background-image: url(../img/mars-svgrepo-com.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                    Júpiter
+---------------------------------------------------*/
+
+.jupiter{
+    background-image: url(../img/jupiter-svgrepo-com.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                    Saturno
+---------------------------------------------------*/
+
+.saturno{
+    background-image: url(../img/saturn-svgrepo-com.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                    Urano
+---------------------------------------------------*/
+
+.urano{
+    background-image: url(../img/uranus-svgrepo-com.svg);
+    background-size: contain;
+    background-position: center;
+}
+
+/*--------------------------------------------------
+                    Neptuno
+---------------------------------------------------*/
+
+.neptuno{
+    background-image: url(../img/neptune-svgrepo-com.svg);
+    background-size: contain;
+    background-position: center;
+}

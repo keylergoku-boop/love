@@ -1,0 +1,13 @@
+.cometa{
+    position: absolute;
+    border-radius: 999px;
+    background: linear-gradient(
+    to right,
+    rgba(255,255,255,0),
+    rgba(255,255,255,.4),
+    rgba(255,255,255,.8),
+    #fff
+);
+    z-index: -1;
+}
+

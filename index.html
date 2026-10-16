@@ -1,153 +1,244 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LIz johana</title>
-    <link rel="stylesheet" href="css/cometa.css" />
-    <link rel="stylesheet" href="css/planetas.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/Modal.css" />
-  </head>
-  <body>
-    <div class="fondo-estrella"></div>
 
-    <div class="contenedor-planetas"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <div class="contenedor-cometa"></div>
+  <meta name="description" content="Un pequeño universo lleno de recuerdos, amor y mensajes especiales." />
 
-    <section class="modal" data-planeta="sol">
+  <title>Liz Johana | Nuestro universo</title>
+
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="css/cometa.css" />
+  <link rel="stylesheet" href="css/planetas.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/Modal.css" />
+</head>
+
+<body>
+  <!-- Fondo animado de estrellas -->
+  <div class="fondo-estrella" aria-hidden="true"></div>
+
+  <!-- Contenedores de los elementos del sistema solar -->
+  <div class="contenedor-planetas"></div>
+  <div class="contenedor-cometa"></div>
+
+  <main>
+    <!-- SOL -->
+    <section class="modal" data-planeta="sol" aria-labelledby="titulo-sol">
       <div class="container">
         <div class="contenedor_img">
-          <video controls src="video/video1.mp4" class="modal_img"></video>
+          <video controls preload="metadata" class="modal_img" aria-label="Video de recuerdos especiales">
+            <source src="video/video1.mp4" type="video/mp4" />
+            Tu navegador no admite la reproducción de videos.
+          </video>
         </div>
-        <h2 class="title">Welcome to liz</h2>
+
+        <h2 class="title" id="titulo-sol">
+          Welcome to Liz
+        </h2>
+
         <p class="paragrafh">
-          Este 2026 me atrevo a decir que fue el mejor año de mi vida, el averte
-          conocido, amarte y explorar todos aquellos lugares en los que emos
-          estado que hicieron que nos conectaramos aun mas haicendome dar de
-          cuenta lo que realmente sigificas en mi vida, te amo mi chocokrispi
-          preciosa y recuerda mantener ese brillo siempre asi como este sol que
-          escojiste.
+          Este 2026 me atrevo a decir que ha sido el mejor año de mi vida.
+          Haberte conocido, amarte y explorar contigo todos esos lugares
+          en los que hemos estado nos ha permitido conectar aún más y
+          darme cuenta de lo que realmente significas en mi vida.
+
+          Te amo, mi chocokrispi preciosa. Recuerda mantener siempre
+          ese brillo tan especial, así como el de este sol que elegiste.
         </p>
-        <a href="#" class="close">cerrar carta de amor</a>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
       </div>
     </section>
 
-    <section class="modal" data-planeta="mercurio">
+    <!-- MERCURIO -->
+    <section class="modal" data-planeta="mercurio" aria-labelledby="titulo-mercurio">
       <div class="container">
         <div class="contenedor_img">
-          <img src="Img/beso rojo.jpeg" alt="cargando" class="modal_img" />
+          <img src="Img/beso rojo.jpeg" alt="Recuerdo de un beso" class="modal_img" />
         </div>
-        <h2 class="title">Welcome to liz</h2>
+
+        <h2 class="title" id="titulo-mercurio">
+          Welcome to Liz
+        </h2>
+
         <p class="paragrafh">
-          recuerda que despues de todas estas dificultades la vida nos sonreira
-          y tendremos ese amancecer dorado en nuectras vidas.
+          Recuerda que, después de todas estas dificultades, la vida
+          volverá a sonreírnos y tendremos ese amanecer dorado
+          en nuestras vidas.
         </p>
-        <a href="#" class="close">cerrar carta de amor</a>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
       </div>
     </section>
 
-    <section class="modal" data-planeta="venus">
+    <!-- VENUS -->
+    <section class="modal" data-planeta="venus" aria-labelledby="titulo-venus">
       <div class="container">
         <div class="contenedor_img">
-          <img
-            src="img/spider-man-spider-man-epic.gif"
-            alt="cargando"
-            class="modal_img"
-          />
+          <img src="img/spider-man-spider-man-epic.gif" alt="Spider-Man, símbolo de valentía y perseverancia"
+            class="modal_img" />
         </div>
-        <h2 class="title">Welcome to liz</h2>
+
+        <h2 class="title" id="titulo-venus">
+          Welcome to Liz
+        </h2>
+
         <p class="paragrafh">
-          Asi como spider man lucho por todas esas personas que creyeron en el
-          asi te pido a ti que lo hagas de la misma manera y no te dejes abrumar
-          de todo esto que pasa en tu vida y siempre des esa milla estra
-          recordando a todas las personas que te apoyamos y creemos en ti. <hr>
-          pd: cotorrita
+          Así como Spider-Man luchó por todas esas personas que creyeron
+          en él, te pido que tú también lo hagas y que no te dejes abrumar
+          por todo lo que está pasando en tu vida.
+
+          Sigue dando siempre lo mejor de ti y recuerda que hay muchas
+          personas que te apoyamos y creemos en ti.
         </p>
-        <a href="#" class="close">cerrar carta de amor</a>
-      </div>
-    </section>
 
-    <section class="modal" data-planeta="tierra">
-      <div class="container">
-        <div class="contenedor_img">
-        <video src="video/WhatsApp Video 2026-08-14 at 2.00.03 PM.mp4" controls alt="cargando" class="modal_img"></video>
-        </div>
-        <h2 class="title">Welcome to liz</h2>
-        <p class="paragrafh">uau uau jajajajaja</p>
-        <a href="#" class="close">cerrar carta de amor</a>
-      </div>
-    </section>
-
-    <section class="modal" data-planeta="marte">
-      <div class="container">
-        <div class="contenedor_img">
-          <img src="Img/beso.jpeg" alt="cargando" class="modal_img" />
-        </div>
-        <h2 class="title">Welcome to liz</h2>
-        <p class="paragrafh">hay miles de fotos donde luces realmente hermosa
-          pero nunguna como esta donde se muestra tu alma a atraves de tus
-          ojos.
+        <p class="paragrafh">
+          <strong>PD:</strong> Cotorrita.
         </p>
-        <a href="#" class="close">cerrar carta de amor</a>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
       </div>
     </section>
 
-    <section class="modal" data-planeta="jupiter">
+    <!-- TIERRA -->
+    <section class="modal" data-planeta="tierra" aria-labelledby="titulo-tierra">
       <div class="container">
         <div class="contenedor_img">
-          <img src="Img/moto-volcan.jpeg" alt="cargando" class="modal_img" />
+          <video controls preload="metadata" class="modal_img" aria-label="Video de un recuerdo juntos">
+            <source src="video/WhatsApp Video 2026-08-14 at 2.00.03 PM.mp4" type="video/mp4" />
+            Tu navegador no admite la reproducción de videos.
+          </video>
         </div>
-        <h2 class="title">Welcome to liz</h2>
-        <p class="paragrafh">No te angusties por lo que sera mañana, vive 
-          y disfruta el hoy y todos esos pequeños momento que hacen especial 
-          a la vida.
+
+        <h2 class="title" id="titulo-tierra">
+          Welcome to Liz
+        </h2>
+
+        <p class="paragrafh">
+          ¡Guau, guau! Jajajajaja.
         </p>
-        <a href="#" class="close">cerrar carta de amor</a>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
       </div>
     </section>
 
-    <section class="modal" data-planeta="saturno">
+    <!-- MARTE -->
+    <section class="modal" data-planeta="marte" aria-labelledby="titulo-marte">
       <div class="container">
         <div class="contenedor_img">
-          <img src="Img/volcan.jpeg" alt="cargando" class="modal_img" />
+          <img src="Img/beso.jpeg" alt="Fotografía de un recuerdo especial" class="modal_img" />
         </div>
-        <h2 class="title">Welcome to liz</h2>
-        <p class="paragrafh">Y como recordatorio tienes aquellas personas 
-          con las cuales siempre puedes compartir tu tiempo, sacar unas sorisas y sentirte en pas
-          , personas que estas dispuestas a escucharte. y aun hay muchas pero de verdad, 
-          muchas mas, te amo preciosa.
+
+        <h2 class="title" id="titulo-marte">
+          Welcome to Liz
+        </h2>
+
+        <p class="paragrafh">
+          Hay miles de fotografías en las que luces realmente hermosa,
+          pero ninguna como esta, en la que se muestra tu alma a través
+          de tus ojos.
         </p>
-        <a href="#" class="close">cerrar carta de amor</a>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
       </div>
     </section>
 
-    <section class="modal" data-planeta="urano">
+    <!-- JÚPITER -->
+    <section class="modal" data-planeta="jupiter" aria-labelledby="titulo-jupiter">
       <div class="container">
         <div class="contenedor_img">
-          <img src="https://i.pinimg.com/736x/c5/6b/d7/c56bd733e178b8eb50b5a1f8ab1ba73e.jpg" alt="cargando" class="modal_img" />
+          <img src="Img/moto-volcan.jpeg" alt="Recuerdo de una aventura en moto" class="modal_img" />
         </div>
-        <h2 class="title">Welcome to liz</h2>
-        <p class="paragrafh">para ti que te mereces todo en esta vida mi amor preciosa</p>
-        <a href="#" class="close">cerrar carta de amor</a>
+
+        <h2 class="title" id="titulo-jupiter">
+          Welcome to Liz
+        </h2>
+
+        <p class="paragrafh">
+          No te angusties por lo que sucederá mañana. Vive y disfruta
+          el presente y todos esos pequeños momentos que hacen
+          especial la vida.
+        </p>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
       </div>
     </section>
 
-    <section class="modal" data-planeta="neptuno">
+    <!-- SATURNO -->
+    <section class="modal" data-planeta="saturno" aria-labelledby="titulo-saturno">
       <div class="container">
         <div class="contenedor_img">
-          <img src="Img/compromiso.jpeg" alt="cargando" class="modal_img" />
+          <img src="Img/volcan.jpeg" alt="Recuerdo de un lugar especial" class="modal_img" />
         </div>
-        <h2 class="title">Welcome to liz</h2>
-        <p class="paragrafh">2026-15-08</p>
-        <a href="#" class="close">cerrar carta de amor</a>
+
+        <h2 class="title" id="titulo-saturno">
+          Welcome to Liz
+        </h2>
+
+        <p class="paragrafh">
+          Como recordatorio, recuerda que tienes personas con las que
+          siempre puedes compartir tu tiempo, sacar unas sonrisas y
+          sentirte en paz.
+
+          Son personas dispuestas a escucharte y acompañarte.
+          Y todavía hay muchas, muchísimas más que te quieren de verdad.
+
+          Te amo, preciosa.
+        </p>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
       </div>
     </section>
 
-    <script src="js/cometa.js"></script>
-    <script src="js/efectos_estrellas.js"></script>
-    <script src="js/efectos_fotos.js"></script>
-    <script src="js/planetas.js"></script>
-  </body>
+    <!-- URANO -->
+    <section class="modal" data-planeta="urano" aria-labelledby="titulo-urano">
+      <div class="container">
+        <div class="contenedor_img">
+          <img src="https://i.pinimg.com/736x/c5/6b/d7/c56bd733e178b8eb50b5a1f8ab1ba73e.jpg"
+            alt="Imagen especial dedicada a mi amor" class="modal_img" loading="lazy" />
+        </div>
+
+        <h2 class="title" id="titulo-urano">
+          Welcome to Liz
+        </h2>
+
+        <p class="paragrafh">
+          Para ti, mi amor precioso, que te mereces todo lo bonito
+          de esta vida.
+        </p>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
+      </div>
+    </section>
+
+    <!-- NEPTUNO -->
+    <section class="modal" data-planeta="neptuno" aria-labelledby="titulo-neptuno">
+      <div class="container">
+        <div class="contenedor_img">
+          <img src="Img/compromiso.jpeg" alt="Fotografía de nuestro compromiso" class="modal_img" loading="lazy" />
+        </div>
+
+        <h2 class="title" id="titulo-neptuno">
+          Welcome to Liz
+        </h2>
+
+        <p class="paragrafh">
+          15 de agosto de 2026.
+        </p>
+
+        <a href="#" class="close">Cerrar carta de amor</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Archivos JavaScript -->
+  <script src="js/cometa.js"></script>
+  <script src="js/efectos_estrellas.js"></script>
+  <script src="js/efectos_fotos.js"></script>
+  <script src="js/planetas.js"></script>
+</body>
+
 </html>
